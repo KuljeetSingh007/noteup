@@ -1,3 +1,14 @@
+.editModal{
+  height: 300px;
+  width: 500px;
+  background-color: #1b1c1c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .App {
   text-align: center;
 }

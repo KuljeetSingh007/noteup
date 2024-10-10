@@ -1,0 +1,27 @@
+.wrapMe {
+    /* container for each noteitem */
+    display: inline-flex;
+    margin: 20px 20px;
+}
+
+.myContainer {
+    /* inner container for noteitems */
+    display: flex;
+    /* background-color: gray; */
+    flex-wrap: wrap;
+    width: 65%; /*maintain center of items  */
+}
+
+.noteItemsBox {
+    /* outer container for noteItems */
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    /* width: 80%; */
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
